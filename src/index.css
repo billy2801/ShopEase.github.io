@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Prata&display=swap');
+
+
+/* 2. Import de Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* 3. Déclaration du thème Tailwind v4 */
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* 4. Vos styles globaux */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter",
+    sans-serif;
+}
